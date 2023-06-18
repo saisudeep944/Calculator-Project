@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cal.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="cal">
+        <h1 style="color: aliceblue;margin-left: 600px; padding-top: 30px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Basic Calculator</h1>
+    </div>
+   <div class="ob">
+    <div class="num">
+        <h2 > Enter Number 1</h2>
+        <form> 
+        <input type="number" style="margin-top: 25px; margin-left: 30px;" id="n1" placeholder="enter first number">
+        </form>
+    </div>
+    <div class="num">
+        <h2 > Enter Number 2</h2>
+        <form> 
+        <input type="number" style="margin-top: 25px; margin-left: 30px;" id="n2" placeholder="enter second number">
+        </form>
+    </div>
+   </div>
+   <div class="but">
+    <input type="submit" value="Add" id="add"  onclick="add()" >
+    <input type="submit" value="Sub" id="sub"  onclick="sub()" >
+    <input type="submit" value="Mul" id="mul"  onclick="mul()" >
+    <input type="submit" value="Div" id="div" onclick="div()">
+   </div>
+   <div class="but">
+         <input type="submit" value="Reload" style="font-size: 20px; background-color: chartreuse; " onclick="window.location.reload()" >
+            
+   </div>
+   <div class="dis" id="res">
+    <h2 style="color: aliceblue;margin-top: -11px;">Answer</h2>
+      
+   </div>
+   <script src="./index.js"></script>
+   
+
+
+</body>
+</html>

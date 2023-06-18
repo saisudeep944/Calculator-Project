@@ -1,0 +1,96 @@
+body{
+    background-color: antiquewhite;
+}
+h2
+{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.num
+{
+    display: flex;
+    margin-left: 520px;
+    
+}
+.ob
+{
+    margin-top: 50px;
+}
+.cal
+{
+    height: 100px;
+   margin-top: -20px;
+   margin-left: -10px;
+   margin-right: -20px;
+    background-color: black;
+   
+}
+.but
+{
+    margin-left: 520px;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+.dis
+{
+    width: 200px;
+    height: 50px;
+    margin-left: 540px;
+    margin-top: 70px;
+    border-radius: 20px;
+    background-color: black;
+}
+#res
+{
+    padding-left: 140px;
+    font-size: 20px;
+    padding-top: 20px;
+    color: aliceblue;
+}
+#val
+{
+    padding-left: 140px;
+    font-size: 20px;
+    padding-top: 20px;
+    color: aliceblue;
+}
+#add
+{
+    font-size: 20px; background-color: black;color: aliceblue;
+   
+}
+#add:hover{
+    background-color: chartreuse;
+    color: black;
+    
+}
+#sub
+{
+    font-size: 20px; background-color: black;color: aliceblue;
+   
+}
+#sub:hover{
+    background-color: chartreuse;
+    color: black;
+    
+}
+#mul
+{
+    font-size: 20px; background-color: black;color: aliceblue;
+   
+}
+#mul:hover{
+    background-color: chartreuse;
+    color: black;
+    
+}
+#div
+{
+    font-size: 20px; background-color: black;color: aliceblue;
+   
+}
+#div:hover{
+    background-color: chartreuse;
+    color: black;
+    
+}
